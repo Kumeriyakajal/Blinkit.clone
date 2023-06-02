@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+/*header section*/
+.header{
+   width: 100%; 
+   display: flex;
+   align-items: center;
+}
+.header-left{
+    margin: 33px;
+    margin-right: 100px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0px 22px;
+   
+}
+.search svg{
+    width: 24px;
+}
+.search input{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 700px;
+    height: 46px;
+}
+button{
+ margin: 40px;
+ font-size: 22px;
+ border: 1px solid whitesmoke;
+}
+.header-right {
+    width: 112px;
+    height: 52px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right svg {
+    width: 24px;
+    margin-right: 8px;
+}
+
+/*main section*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    max-width: 1280px;
+}
+.section1,section1 img{
+    width: 100%;
+}
+.section2{
+    margin: 0 16px;
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+    border-radius: 12px;
+}
+.section2 img{
+    height: 195px;
+    width: 335.4px;
+    cursor: pointer;
+    display: flex;
+}
+.section3{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img3{
+    width: 128px;  
+}
+.img3 img{
+    width: 100%;  
+}
